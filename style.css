@@ -9,7 +9,9 @@ body {
   min-height: 100vh;
   overflow-y: hidden;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-family: "Nunito", sans-serif;
 }
 
@@ -149,6 +151,31 @@ li span {
   100% {
     color: purple;
   }
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1.4rem;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #333;
+}
+
+footer > img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
 
 /* Media Query: Large Smartphone (Vertical) */
